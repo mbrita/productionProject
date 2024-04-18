@@ -1,0 +1,100 @@
+.bannerBody {
+  background-color: #248592;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 10px 20px;
+  width: 1216px;
+}
+
+.bannerTags {
+  display: flex;
+  flex-direction: row;
+}
+
+.bannerTag {
+  border-radius: 32px;
+  background: #ebf4fd;
+  color: #879aad;
+  margin-right: 10px;
+  border-radius: 8px;
+  padding: 5px 12px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bannerContent {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.bannerTitle {
+  color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-direction: row;
+}
+.innerBannerTitle {
+  font-size: 48px;
+  padding: 30px 0;
+}
+.bannerT {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+}
+.innerBannerIcon {
+  height: 26px;
+  margin-left: 6px;
+}
+.mainBtn {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  width: 118px;
+  height: 48px;
+  background: #fff;
+  color: #8596aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.btn {
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.btn:active {
+  border: 1px solid #d833f5;
+}
+.popoverBtn {
+  background-color: #248592;
+  border: none;
+}
+.popover {
+  background-color: #fff;
+  font-size: 100px;
+}
+.Tooltip {
+  color: #000000;
+  border-radius: 12px;
+  padding: 12px 16px;
+  max-width: 303px;
+  min-height: 96px;
+  box-shadow: 0 4px 20px 0 rgba(133, 150, 170, 0.2);
+  background: #fff;
+}

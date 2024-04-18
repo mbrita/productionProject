@@ -1,0 +1,35 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  border: 2px solid #dae6f2;
+  border-radius: 100px;
+  padding: 5px 30px 5px 20px;
+  margin-top: 5px;
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 5px;
+  min-width: 109px;
+}
+
+.cancelActive {
+  margin-top: 5px;
+  padding: 5px 30px 5px 20px;
+  color: #22ac62;
+  cursor: pointer;
+}
+.iconActive {
+  border: 2px solid #8b83d0;
+}
+.iconImg {
+  margin-right: 10px;
+}

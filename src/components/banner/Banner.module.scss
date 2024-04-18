@@ -1,0 +1,46 @@
+.bannerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px;
+}
+.banner {
+  border-radius: 24px;
+  width: 100%;
+  height: 140px;
+  background-color: #d9f1ff;
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  flex-direction: row;
+}
+.bannerText {
+  width: 100%;
+}
+.bannerBtn {
+  background-color: #ebf4fd;
+  border: none;
+  border-radius: 100px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stripes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+.stripe {
+  border-radius: 4px;
+  background-color: #8b83d0;
+  width: 25%;
+  height: 4px;
+  margin: 1px;
+}
+.stripePassive {
+  background-color: #d3d0f3;
+}

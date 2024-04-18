@@ -1,0 +1,82 @@
+.logo {
+  color: #8596aa;
+  background-color: #ebf4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 50px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.createLine {
+  border-top: 1px solid #ebf4fd;
+  margin-top: 10px;
+}
+
+.profil {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8596aa;
+  padding: 17px 10px;
+  border: 2px solid #fff;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profil:active {
+  color: #8b83d0;
+  background-color: #dccaff;
+  border: 2px solid #8b83d0;
+  border-radius: 8px;
+}
+.profil:active .arrow path {
+  fill: #8b83d0;
+}
+.profilLogo {
+  margin-right: 10px;
+  width: 48px;
+  height: 48px;
+  background-color: #8b83d0;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.sideBarWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 248px;
+  background-color: #fff;
+  padding: 8px;
+}
+.sideBarLink {
+  text-decoration: none;
+  color: #8596aa;
+  border: 2px solid #fff;
+  padding: 17px 10px;
+  display: flex;
+  align-items: center;
+}
+.sideBarLink:active {
+  color: #8b83d0;
+  background-color: #dccaff;
+  border: 2px solid #8b83d0;
+  border-radius: 8px;
+}
+
+.sideBarLink:active .icon path {
+  fill: #8b83d0;
+}
+
+.sideBarIcon {
+  padding-right: 15px;
+}
