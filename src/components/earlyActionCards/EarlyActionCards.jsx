@@ -16,8 +16,8 @@ const earlyActionCards = [
   {
     format: "Аудио",
     img: Audio,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#376B75",
@@ -25,8 +25,8 @@ const earlyActionCards = [
   {
     format: "Тест",
     img: Test,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#5990AF",
@@ -34,8 +34,8 @@ const earlyActionCards = [
   {
     format: "Урок",
     img: Lesson,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#DCCAFF",
@@ -43,8 +43,8 @@ const earlyActionCards = [
   {
     format: "Текст",
     img: Topic,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#8B83D0",
@@ -52,8 +52,8 @@ const earlyActionCards = [
   {
     format: "Аудио",
     img: Audio,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#4A4FA7",
@@ -61,8 +61,8 @@ const earlyActionCards = [
   {
     format: "Видео",
     img: Video,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#376B75",
@@ -70,8 +70,8 @@ const earlyActionCards = [
   {
     format: "Галерея",
     img: Gallery,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#5990AF",
@@ -79,8 +79,8 @@ const earlyActionCards = [
   {
     format: "Текст",
     img: Topic,
-    tags: ["Биология", "5 класс"],
-    title: "Способы размножения растений",
+    tags: ["Литература", "9 класс"],
+    title: "Лекции по русской литературе",
     author: "Иванов Н.C",
     width: 1,
     color: "#DCCAFF",
@@ -91,9 +91,9 @@ function EarlyActionCards() {
   return (
     <div className={classes.earlyActionCardsWrapper}>
       <div className={classes.earlyActionCardsHeader}>
-        <h1>Продолжить просмотр</h1>
+        <h1 className={classes.earlyActionCardsTitle}>Продолжить просмотр</h1>
         <button className={classes.earlyActionCardsBtn}>
-          Смотреть всё{" "}
+          Смотреть всё
           <img className={classes.earlyActionCardsBtnImg} src={Stroke} alt="" />
         </button>
       </div>

@@ -4,6 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 10px 20px;
+  position: relative;
 }
 .icon {
   display: flex;
@@ -21,11 +22,11 @@
   min-width: 109px;
 }
 
-.cancelActive {
-  margin-top: 5px;
-  padding: 5px 30px 5px 20px;
-  color: #22ac62;
+.cancel {
+  color: #8b83d0;
   cursor: pointer;
+  padding: 5px 30px 5px 20px;
+  margin-top: 5px;
 }
 .iconActive {
   border: 2px solid #8b83d0;

@@ -77,11 +77,11 @@ function Filter() {
           {icon.title}
         </div>
       ))}
-      {active.length > 0 && (
+      {/* {active.length > 0 && (
         <div className={classes.cancel} onClick={() => setActive([])}>
           <img src={Cancel} alt="" /> Отменить выбор
         </div>
-      )}
+      )} */}
     </div>
   )
 }

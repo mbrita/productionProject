@@ -5,20 +5,20 @@ import Stroke from "../../assets/banner/Stroke.svg"
 
 const bannerText = [
   {
-    name: "Огромный выбор учебного материал",
-    body: "У нас уже более 100 000 материалов по различным предметам",
+    name: "Книжный клуб на английском языке «Long Story Short",
+    body: "У нас уже более 1000 материалов по различным темам",
   },
   {
-    name: "Riesige Auswahl an Lehrmaterial",
-    body: "Wir verfügen bereits über mehr als 100.000 Materialien zu verschiedenen Themen",
+    name: "Дискуссионный клуб «Экологичное общение»",
+    body: "У нас уже более 1000 материалов по различным темам",
   },
   {
-    name: "Vaste sélection de matériel pédagogique",
-    body: " Vaste sélection de matériel pédagogique",
+    name: "Клуб общения на английском языке «Speaking club with Nastushka»",
+    body: "У нас уже более 1000 материалов по различным темам",
   },
   {
-    name: "ଶିକ୍ଷାଗତ ସାମଗ୍ରୀର ବୃହତ ଚୟନ |",
-    body: "ଶିକ୍ଷାଗତ ସାମଗ୍ରୀର ବ୍ୟାପକ ଚୟନ |",
+    name: "Разговорный клуб на чувашском языке «Сӑмахкун»",
+    body: "У нас уже более 1000 материалов по различным темам",
   },
 ]
 
@@ -42,7 +42,7 @@ function Banner() {
     <div className={classes.bannerWrapper}>
       <div className={classes.banner}>
         <div className={classes.bannerText}>
-          <p>{post.name}</p>
+          <p className={classes.bannerTitle}>{post.name}</p>
           <p>{post.body}</p>
         </div>
         <button onClick={changeText} className={classes.bannerBtn}>

@@ -1,9 +1,12 @@
+.bannerWrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
 .bannerBody {
   background-color: #248592;
   border-radius: 16px;
   padding: 20px;
-  margin: 10px 20px;
-  width: 1216px;
 }
 
 .bannerTags {
@@ -79,7 +82,7 @@
   cursor: pointer;
 }
 .btn:active {
-  border: 1px solid #d833f5;
+  border: 1px solid #9f53cc;
 }
 .popoverBtn {
   background-color: #248592;

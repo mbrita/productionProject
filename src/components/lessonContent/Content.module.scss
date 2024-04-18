@@ -11,14 +11,17 @@
 }
 .title {
   font-size: 48px;
+  margin: 10px 0;
 }
 .subTitle {
   font-size: 24px;
+  margin: 10px 0;
 }
 .contentTags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 10px 0;
 }
 .contentTag {
   border-radius: 8px;

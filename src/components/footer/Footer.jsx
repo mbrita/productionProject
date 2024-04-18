@@ -7,7 +7,7 @@ function Footer() {
     <div className={classes.footerWrapper}>
       <div className={classes.footerContent}>
         <div className={classes.leftColumn}>
-          <div className={classes.logo}>Инструментарий</div>
+          <div className={classes.logo}>Учёба 2.0</div>
         </div>
 
         <div className={classes.rightColumn}>
@@ -29,13 +29,13 @@ function Footer() {
           <div className={classes.support}>
             Поддержка
             <a className={classes.supportLink} href="tel:+74955395519">
-              +7 495 539-55-19
+              +7 999 678-34-43
             </a>
-            <a className={classes.supportLink} href="mailto:info@edu.gov.ru">
-              info@edu.gov.ru
+            <a className={classes.supportLink} href="shool.ru">
+              shool@mail.ru
             </a>
-            <a className={classes.supportLink} href="http://edu.gov.ru">
-              edu.gov.ru
+            <a className={classes.supportLink} href="shool.ru">
+              shool.ru
             </a>
           </div>
         </div>

@@ -16,45 +16,55 @@ import { ReactComponent as Exit } from "../../assets/sidebar/exit.svg"
 
 function SideBar() {
   const profilButton = {
-    name: "Бронте Ш.А.",
-    role: "Эксперт",
+    name: "Найт С.",
+    role: "Учитель",
+    link: "/page",
   }
   const sideBarLink = [
     {
       title: "Поиск контента",
       Icon: Search,
+      link: "/",
     },
     {
       title: "Главная страница",
       Icon: Home,
+      link: "/",
     },
     {
       title: "Мои уроки",
       Icon: Hat,
+      link: "/",
     },
     {
       title: "Каталог",
       Icon: Book,
+      link: "/",
     },
     {
       title: "Избранное",
       Icon: Favorite,
+      link: "/",
     },
     {
       title: "Новости",
       Icon: News,
+      link: "/",
     },
     {
       title: "Подобрано для вас",
       Icon: Personal,
+      link: "/",
     },
     {
       title: "Опросы",
       Icon: Poll,
+      link: "/",
     },
     {
       title: "История",
       Icon: Story,
+      link: "/",
     },
   ]
   const sideBarLinkBottom = [
@@ -70,8 +80,8 @@ function SideBar() {
   ]
   return (
     <div className={classes.sideBarWrapper}>
-      <div className={classes.logo}>Инструментарий</div>
-      <Link className={classes.profil}>
+      <div className={classes.logo}>Учёба 2.0</div>
+      <Link to={profilButton.link} className={classes.profil}>
         <div className={classes.name}>
           <div className={classes.profilLogo}></div> {profilButton.name}
           <br />
@@ -81,7 +91,7 @@ function SideBar() {
       </Link>
       <div className={classes.createLine}></div>
       {sideBarLink.map((el, index) => (
-        <Link key={index} className={classes.sideBarLink}>
+        <Link to={el.link} key={index} className={classes.sideBarLink}>
           <div className={classes.sideBarIcon}>
             <el.Icon className={classes.icon} />
           </div>

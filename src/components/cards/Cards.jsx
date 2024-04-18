@@ -95,7 +95,7 @@ function Cards() {
   }
   return (
     <div className={classes.cardsWrapper}>
-      <h1>Популярные темы уроков</h1>
+      <h1 className={classes.cardsTitle}>Популярные темы уроков</h1>
       <div className={classes.cards}>
         {cards.map((el, index) => (
           <div

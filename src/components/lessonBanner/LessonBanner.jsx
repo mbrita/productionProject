@@ -62,54 +62,55 @@ function Banner({ isVisible, setIsVisible }) {
   }
 
   return (
-    <div className={classes.bannerBody}>
-      <div className={classes.bannerTags}>
-        {bannerContent.tags.map((el, i) => (
-          <div className={classes.bannerTag}>{el}</div>
-        ))}
-      </div>
-
-      <div className={classes.bannerContent}>
-        <div className={classes.bannerTitle}>
-          <p className={classes.innerBannerTitle}>
-            {maxLength(bannerContent)}{" "}
-            <button
-              className={classes.popoverBtn}
-              ref={refs.setReference}
-              {...getReferenceProps()}
-            >
-              <img
-                className={classes.innerBannerIcon}
-                src={Information}
-                alt=""
-              />
-            </button>
-            <FloatingPortal>
-              {isOpen && (
-                <div
-                  className={classes.Tooltip}
-                  ref={refs.setFloating}
-                  style={floatingStyles}
-                  {...getFloatingProps()}
-                >
-                  {bannerContent.title}
-                </div>
-              )}
-            </FloatingPortal>
-            {/* <img className={classes.innerBannerIcon} src={Pencil} alt="" /> */}
-          </p>
+    <div className={classes.bannerWrapper}>
+      <div className={classes.bannerBody}>
+        <div className={classes.bannerTags}>
+          {bannerContent.tags.map((el, i) => (
+            <div className={classes.bannerTag}>{el}</div>
+          ))}
         </div>
-        <img src={CardImg} alt="" />
-      </div>
 
-      <div className={classes.btns}>
-        <div>
-          <button className={classes.btn}>Добавить в избранное</button>
-          <button className={classes.btn}>Добавить в Мои уроки</button>
+        <div className={classes.bannerContent}>
+          <div className={classes.bannerTitle}>
+            <p className={classes.innerBannerTitle}>
+              {maxLength(bannerContent)}{" "}
+              <button
+                className={classes.popoverBtn}
+                ref={refs.setReference}
+                {...getReferenceProps()}
+              >
+                <img
+                  className={classes.innerBannerIcon}
+                  src={Information}
+                  alt=""
+                />
+              </button>
+              <FloatingPortal>
+                {isOpen && (
+                  <div
+                    className={classes.Tooltip}
+                    ref={refs.setFloating}
+                    style={floatingStyles}
+                    {...getFloatingProps()}
+                  >
+                    {bannerContent.title}
+                  </div>
+                )}
+              </FloatingPortal>
+            </p>
+          </div>
+          <img src={CardImg} alt="" />
         </div>
-        <button onClick={visibility} className={classes.mainBtn}>
-          Посмотреть
-        </button>
+
+        <div className={classes.btns}>
+          <div>
+            <button className={classes.btn}>Добавить в избранное</button>
+            <button className={classes.btn}>Добавить в Мои уроки</button>
+          </div>
+          <button onClick={visibility} className={classes.mainBtn}>
+            Посмотреть
+          </button>
+        </div>
       </div>
     </div>
   )
